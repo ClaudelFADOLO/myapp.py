@@ -102,7 +102,7 @@ mots_a_rechercher2 = ['passée', 'mail', 'étoiles', 'hier', 'réussi', 'référ
 
 
 # Charger les données prétraitées
-df_preprocessed = pd.read_csv(r'C:/Users/FADOLO/Documents/GitHub/SupPY_Chain/data/df.csv')  # Remplacez 'chemin_vers_votre_fichier.csv' par le chemin réel de votre fichier
+df_preprocessed = pd.read_csv('df.csv')  # Remplacez 'chemin_vers_votre_fichier.csv' par le chemin réel de votre fichier
 
 #Ajout des mots suppléme,taires à la table initiale utilisée pour ma modélisation
 for mot in mots_a_rechercher2:
