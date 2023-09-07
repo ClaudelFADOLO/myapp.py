@@ -131,10 +131,10 @@ confusion_matrix_eq = pd.crosstab(y_test, y_pred, rownames=['Classe réelle'], c
 # print(confusion_matrix_eq)
 
 # Calcul et affichage de la matrice de confusion
-st.write("Matrice de confusion du modèle :")
-confusion_matrix_eq.index.name = 'Classe réelle'
-confusion_matrix_eq.columns.name = 'Classe prédite'
-st.write(confusion_matrix_eq)
+#st.write("Matrice de confusion du modèle :")
+#confusion_matrix_eq.index.name = 'Classe réelle'
+#confusion_matrix_eq.columns.name = 'Classe prédite'
+#st.write(confusion_matrix_eq)
 
 n_rows_to_display = 20
 df_for_predictions = df_preprocessed.copy()
